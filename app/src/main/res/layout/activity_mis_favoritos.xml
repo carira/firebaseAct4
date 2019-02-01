@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MisFavoritos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LISTADO DE PROCUTOS" />
+
+    <EditText
+        android:id="@+id/etNombreFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de producto añadir favoritos:" />
+
+    <Button
+        android:id="@+id/btnAnyadirFavoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AÑADIR FAVORITO" />
+
+    <ListView
+        android:id="@+id/lvProductos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTOS SON MIS PRODUCTOS FAVORITOS" />
+
+    <Button
+        android:text="Mis productos favoritos"
+        android:id="@+id/btnMostrarFavoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lvProductoFavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></ListView>
+
+
+</LinearLayout>

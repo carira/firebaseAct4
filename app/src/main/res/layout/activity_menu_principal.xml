@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menuPrincipal"
+    >
+
+    <Button
+        android:id="@+id/btnEditarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Editar usuario" />
+
+    <Button
+        android:id="@+id/btnConsultarUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONSULTA PRODCUTOS POR CATEGORIA - NOMBRE PRODUCTO" />
+
+    <Button
+        android:id="@+id/btnConsultaByNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONSULTA PRODCUTOS POR NOMBRE DE USUARIO" />
+
+    <Button
+        android:id="@+id/btnAñadirProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Añadir producto" />
+
+    <Button
+        android:id="@+id/btnEditarProcutos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Editar mis prodcutos" />
+
+    <Button
+        android:id="@+id/btnMisFavoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mis favoritos" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Logout" />
+
+
+</LinearLayout>
