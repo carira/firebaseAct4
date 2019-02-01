@@ -32,6 +32,7 @@ public class anyadirProducto extends AppCompatActivity {
     private FirebaseAuth mAuth;
     DatabaseReference bbdd;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,7 @@ public class anyadirProducto extends AppCompatActivity {
         etDescripcion = (EditText) findViewById(R.id.etDescripcion);
         etPrecio = (EditText) findViewById(R.id.etPrecio);
         edadesrecomendads = (EditText) findViewById(R.id.edadesrecomendads);
+        https://accounts.google.com// /signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.firebase.google.com%2F%3Fhl%3Des-419&followup=https%3A%2F%2Fconsole.firebase.google.com%2F%3Fhl%3Des-419&hl=es-419&flowName=GlifWebSignIn&flowEntry=ServiceLogin
 
         //CARGAR SPINNER DE CATEGORIAS:
         spCategorias = (Spinner) findViewById(R.id.spCategorias);

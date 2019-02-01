@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         } else {
                             // If sign in fails, display a message to the user.
 
-                            Toast.makeText(MainActivity.this, "Singin failed.",
+                            Toast.makeText(MainActivity.this, "Singin failed."+task.getException(),
                                     Toast.LENGTH_SHORT).show();
 
                         }

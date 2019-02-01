@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "827339934808-ulsss6oiooqm4l0cb9j8etosa114v50b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parsero.qtaccesodatos",
+            "certificate_hash": "1674dd3b270a10467365404f499a3f9c7ab17aea"
+          }
+        },
+        {
           "client_id": "827339934808-oevmuo80nlvl74o6nmqb0rjkqois9q28.apps.googleusercontent.com",
           "client_type": 3
         }
